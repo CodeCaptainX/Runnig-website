@@ -148,7 +148,7 @@
   display: flex;
 }
 .for-button-filter1 {
-  display: none;
+  display: none ; 
 }
 .Sort-sort {
   display: flex;

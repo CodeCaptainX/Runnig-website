@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/forregisterform.css" />
+    <link rel="stylesheet" href="../css/global.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <a href="../index.html">
+        <img class="logo" src="../image/kkclub.png" alt="" />
+      </a>
+
+      <div class="hamburger">
+        <i class="fa-solid fa-bars menubar"></i>
+      </div>
+
+      <div class="nav__link hide">
+        <a href="#">Sports</a>
+        <a href="#">Grow your event</a>
+        <a href="#">Help</a>
+        <div class="hover-element">
+          <a href="#"><i class="fa-solid fa-user user"> </i></a>
+          <div class="for-absolute-element">
+            <div>
+              <a href="#"> Sign Up</a>
+            </div>
+            <div><a href="../pages/RegisterForm.html">Register</a></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="forNavbar-phone show">
+        <i class="fa-solid fa-xmark x-sign"></i>
+        <div>
+          <div>
+            <a href="#">
+              <img class="logo1" src="../image/kkclub.png" alt="" />
+            </a>
+          </div>
+          <a href=""><h3>Home</h3></a>
+          <a href=""><h3>Sports</h3></a>
+          <a href=""><h3>Charity places</h3></a>
+          <a href=""><h3>Grow your event</h3></a>
+        </div>
+        <div>
+          <a href="#"> <h2>Sign up or Log in</h2></a>
+        </div>
+      </div>
+      <div class="hamburge1">
+        <i class="fa-solid fa-bars"></i>
+        <!-- Removed "active" class -->
+      </div>
+    </nav>
+    <div class="div-center">
+      <div class="registration-form">
+        <h2>Running Event Registration</h2>
+        <form id="registrationForm">
+          <div class="form-group1">
+            <div class="form-group">
+              <label for="name">1. Full Name <sup> *</sup></label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group1">
+              <label class="gender">2.Gender <sup> *</sup> </label>
+              <div>
+                <input
+                  type="radio"
+                  id="male"
+                  name="gender"
+                  value="Male"
+                  required />
+                <label for="male">Male</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  id="female"
+                  name="gender"
+                  value="Female"
+                  required />
+                <label for="female">Female</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">3. Email <sup> *</sup></label>
+              <input type="email" id="email" name="email" required />
+            </div>
+
+            <div class="form-group">
+              <label for="age">3. Age <sup> *</sup></label>
+              <input type="number" id="age" name="age" min="18" required />
+            </div>
+            <div class="form-group">
+              <label for="birthdate">4. Birthdate <sup> *</sup></label>
+              <input type="date" id="birthdate" name="birthdate" required />
+            </div>
+
+            <div class="form-group">
+              <label for="Nationaltity">5. Nationaltity <sup> *</sup></label>
+              <input type="text" id="Nationaltity" name="age" required />
+            </div>
+            <div class="form-group">
+              <label for="phonenumer">6. phone Number <sup> *</sup></label>
+              <input
+                type="number"
+                id="phonenumer"
+                name="age"
+                min="18"
+                required />
+            </div>
+          </div>
+
+          <div class="form-group1">
+            <div>
+              <label class="gender">7. Running distance <sup> *</sup> </label>
+              <div>
+                <input
+                  type="radio"
+                  id="15km"
+                  name="gender"
+                  value="Male"
+                  required />
+                <label for="15km">15km (18$) skip to question!</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  id="10km"
+                  name="gender"
+                  value="Male"
+                  required />
+                <label for="10km">10km ($13) skip to question!</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  id="male1"
+                  name="gender"
+                  value="Male"
+                  required />
+                <label for="male">kids ($8) skip to question!</label>
+              </div>
+            </div>
+          </div>
+
+          <h4>Adult T-shirt size</h4>
+          <div>
+            <label
+              >8. Please choose your t-shirt size according to size of the chart
+              below <span style="color: red"> *</span></label
+            >
+            <table class="size-table" style="margin-top: 20px">
+              <thead>
+                <tr>
+                  <th>Category</th>
+                  <th>Small</th>
+                  <th>Medium</th>
+                  <th>Large</th>
+                  <th>X-Large</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Men</td>
+                  <td>36-38</td>
+                  <td>38-40</td>
+                  <td>40-42</td>
+                  <td>42-44</td>
+                </tr>
+                <tr>
+                  <td>Women</td>
+                  <td>32-34</td>
+                  <td>34-36</td>
+                  <td>36-38</td>
+                  <td>38-40</td>
+                </tr>
+                <tr>
+                  <td>Kids</td>
+                  <td>24-26</td>
+                  <td>26-28</td>
+                  <td>28-30</td>
+                  <td>30-32</td>
+                </tr>
+              </tbody>
+            </table>
+            <div style="margin-top: 15px; margin-left: 15px">
+              <div>
+                <input type="radio" id="xs1" name="shirtSize" value="XS" />
+                <label for="xs1">S </label>
+              </div>
+              <div>
+                <input type="radio" id="xs2" name="shirtSize" value="XS" />
+                <label for="xs2">M </label>
+              </div>
+              <div>
+                <input type="radio" id="xs3" name="shirtSize" value="XS" />
+                <label for="xs3">L </label>
+              </div>
+              <div>
+                <input type="radio" id="xs4" name="shirtSize" value="XS" />
+                <label for="xs4">XL </label>
+              </div>
+              <div>
+                <input type="radio" id="xs5" name="shirtSize" value="XS" />
+                <label for="xs5">XXL </label>
+              </div>
+            </div>
+          </div>
+          <h4>Kids T-shirt size</h4>
+          <div>
+            <label
+              >9. Please choose your kids t-shirt size according to size of the
+              chart below <span style="color: red"> *</span></label
+            >
+            <table class="size-table" style="margin-top: 20px">
+              <thead>
+                <tr>
+                  <th>Category</th>
+                  <th>Small</th>
+                  <th>Medium</th>
+                  <th>Large</th>
+                  <th>X-Large</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Men</td>
+                  <td>36-38</td>
+                  <td>38-40</td>
+                  <td>40-42</td>
+                  <td>42-44</td>
+                </tr>
+                <tr>
+                  <td>Women</td>
+                  <td>32-34</td>
+                  <td>34-36</td>
+                  <td>36-38</td>
+                  <td>38-40</td>
+                </tr>
+                <tr>
+                  <td>Kids</td>
+                  <td>24-26</td>
+                  <td>26-28</td>
+                  <td>28-30</td>
+                  <td>30-32</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div style="margin-top: 15px; margin-left: 15px">
+            <div>
+              <div>
+                <input
+                  type="radio"
+                  id="xs"
+                  name="tshirtSize"
+                  value="XS"
+                  required />
+                <label for="xs">XS</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  id="s"
+                  name="tshirtSize"
+                  value="S"
+                  required />
+                <label for="s">S</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  id="m"
+                  name="tshirtSize"
+                  value="M"
+                  required />
+                <label for="m">M</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  id="l"
+                  name="tshirtSize"
+                  value="L"
+                  required />
+                <label for="l">L</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  id="xl"
+                  name="tshirtSize"
+                  value="XL"
+                  required />
+                <label for="xl">XL</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  id="xxl"
+                  name="tshirtSize"
+                  value="XXL"
+                  required />
+                <label for="xxl">XXL</label>
+              </div>
+            </div>
+          </div>
+          <h4>Payment</h4>
+          <div>
+            <p>
+              10. Scan the QR code below with your ABA mobile banking app to
+              make a payment.
+            </p>
+
+            <img src="../image/Aba.jpg" alt="aba" class="width-image" />
+            <p>
+              If you have any questions or need assistance, please contact our
+              customer support.
+            </p>
+          </div>
+
+          <div class="terms-form">
+            <h4>11. Running Event - Terms of Use</h4>
+            <p>
+              Running websites are designed to inspire, inform, and connect
+              runners of all skill levels. Here's a paragraph that might be
+              suitable for a running website, highlighting its purpose,
+              offerings, and the sense of community it fosters:
+            </p>
+
+            <input type="checkbox" id="terms" />
+            <label for="terms">agree and continue</label>
+          </div>
+          <button type="submit" class="submit-button">Register</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

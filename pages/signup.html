@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="../css/signup.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  </head>
+
+  <body>
+    <nav class="nav">
+      <a href="../index.html">
+        <img class="logo" src="../image/kkclub.png" alt="" />
+      </a>
+
+      <div class="hamburger">
+        <i class="fa-solid fa-bars menubar"></i>
+      </div>
+
+      <div class="nav__link hide">
+        <a href="#">Sports</a>
+        <a href="#">Grow your event</a>
+        <a href="#">Help</a>
+        <div class="hover-element">
+          <a href="#"><i class="fa-solid fa-user user"> </i></a>
+          <div class="for-absolute-element">
+            <div>
+              <a href="../pages/login.html"> Sign Up</a>
+            </div>
+            <div><a href="../pages/RegisterForm.html">Register</a></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="forNavbar-phone show">
+        <i class="fa-solid fa-xmark x-sign"></i>
+        <div>
+          <div>
+            <a href="#">
+              <img class="logo1" src="../image/kkclub.png" alt="" />
+            </a>
+          </div>
+          <a href=""><h3>Home</h3></a>
+          <a href=""><h3>Sports</h3></a>
+          <a href=""><h3>Charity places</h3></a>
+          <a href=""><h3>Grow your event</h3></a>
+        </div>
+        <div class="fornav-phone">
+          <a href="./pages/signup.html"> Sign up or Log in</a>
+          <a href="./pages/RegisterForm.html"> Register</a>
+        </div>
+      </div>
+      <div class="hamburge1">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+    <div class="for-mid-center">
+      <div class="signup-container">
+        <h2>Sign up with email</h2>
+        <p>Enter your details to create an account</p>
+        <form action="#" method="post">
+          <input
+            type="email"
+            name="email"
+            class="hello"
+            placeholder="Email address"
+            required />
+          <input
+            type="text"
+            name="firstName"
+            placeholder="First Name"
+            required />
+          <input type="text" name="lastName" placeholder="Last Name" required />
+          <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            required />
+          <input
+            type="password"
+            name="confirmPassword"
+            placeholder="Confirm Password"
+            required />
+          <button type="submit">Create Account</button>
+        </form>
+        <p>Already got a verification code? <a href="#">Verify account</a></p>
+      </div>
+    </div>
+    <script src="../javascript/fornavbar.js"></script>
+  </body>
+</html>
